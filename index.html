@@ -3,10 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="scripts.js"></script>
+    <title>rock-paper-scissors</title>
+  
+    <script src="scrp.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1>ROCK PAPER SCISSORS</h1>
+    </header>
+    <div class="buttons">
+        <button class="butt" id="rock" ><span class="sign">✊</span></button>
+        <button class="butt" id="paper"><span class="sign">✋</span></button>
+        <button class="butt" id="scissors"><span class="sign">✌</span></button>
+    </div>
+
+    <div id="results">
+        <div class="endgame"></div>
+        <h2 class="instruction">Play By Clicking The Buttons Above
+            <p>First to reach 5 points Wins!</p>
+        </h2>
+        
+       <p class="comp">Computer score:<span class="number"> 0</span></p>
+
+       <p class="player">You score:<span class="number"> 0</span></p>
+       
+      
+       
+  
+         <div class="finish"></div>
+        
+        </div>
+    </div>
+
 </body>
 </html>

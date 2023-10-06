@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(179, 206, 179);
+    
+}
+
+header {
+    align-self: center;
+    background-color: rgb(152, 206, 138);
+    padding: 0px 550px 0px 550px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.sign {
+    font-size: 70px;
+}
+
+h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#results {
+    align-self: center;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    font-size: large;
+   
+    
+}
+
+
+.buttons{
+    display: flex;
+    margin: 20px 40px;
+    justify-content: space-around;
+    margin-top: 70px;
+    cursor: pointer;
+    transform: 100ms;
+}
+button{
+    padding: 20px;
+    width: 120px;
+    border-radius: 10px ;
+    background-color: rgb(152, 206, 138);
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 100ms;   
+}
+
+button:hover {
+    transform: scale(1.3);
+}
+
+.number {
+    font-size: 15px;
+}
+
+.endgame {
+    font-size: 70px;
+    
+}
